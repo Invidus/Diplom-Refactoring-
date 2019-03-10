@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import img from './../../Images/w512h5121380477032search.png';
 // import img from './../../Images/HLogo.png';
 
 const Header = () => (
@@ -39,10 +39,14 @@ const Header = () => (
                 </li>
             </ul>
             <div className="box">
-                <div className="container-4">
+                {/* <div className="container-4">
                     <input type="search" id="search" placeholder="Поиск..." />
                     <button className="icon"><i className="fa fa-search"></i></button>
-                </div>
+                </div> */}
+                <div class="searchbar">
+          <input class="search_input" type="text" name="" placeholder="Поиск..."/>
+          <a href="#" class="search_icon"><i class="fas fa-search"><img src={img} height = "18px" /></i></a>
+        </div>
             </div>
         </div>
     </nav>
