@@ -40,6 +40,7 @@ body,
 p,
 table,
 a {
+    /* background-color: #8080ff; */
     font-family: 'Roboto Regular';
 }
 
@@ -449,4 +450,7 @@ div#carouselExampleIndicators {
     align-items: center;
     border-radius: 50%;
     color:gray;
+    }
+    .footer-hr{
+        background-color: #00ff68;
     }

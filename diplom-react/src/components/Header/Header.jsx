@@ -22,20 +22,20 @@ const Header = () => (
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
                 <li className="nav-item">
-                    <a className="nav-link" href="index.php">Главная </a>
+                    <a className="nav-link" href="/main">Главная </a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link " href="calculate.php">Расчет калорий</a>
+                    <a className="nav-link " href="/news" >Новости</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="news.php">Новости</a>
+                    <a className="nav-link" href="/calculate">Расчет калорий</a>
                 </li>
 
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Поддержка</a>
+                    <a className="nav-link" href="/support">Поддержка</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#contacts">Контакты</a>
+                    <a className="nav-link" href="/contact">Контакты</a>
                 </li>
             </ul>
             <div className="box">

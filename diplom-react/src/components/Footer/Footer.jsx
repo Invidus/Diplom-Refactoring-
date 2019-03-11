@@ -10,14 +10,14 @@ const Footer = () => (
 
     <footer className="page-footer font-small blue-grey lighten-5">
 
-        <div >
+        <div className = "footer-hr">
             <div className="container">
 
                 {/* Grid row*/}
                 <div className="row py-4 d-flex align-items-center">
 
                     {/* Grid column */}
-                    <div className="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0 col-white">
+                    <div className="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0 ">
                         <h6 className="mb-0">Присоединяйтесь к нам в социальных сетях!</h6>
                     </div>
                     {/* Grid column */}
@@ -27,24 +27,17 @@ const Footer = () => (
 
                         {/* Facebook */}
                         <a className="fb-ic">
-                            <i className="fa fa-facebook white-text mr-4 col-white"> </i>
+                            <i className="fa fa-facebook white-text mr-4 col-white"><img src={require('./../../Images/fb_icon-icons.com_65434.png')} width = "20px"/> </i>
                         </a>
                         {/* Twitter */}
                         <a className="tw-ic">
-                            <i className="fa fa-twitter white-text mr-4 col-white"> </i>
+                            <i className="fa fa-twitter white-text mr-4 col-white"><img src={require('./../../Images/TWITTER_icon-icons.com_65486 (1).png')} width = "20px"/>  </i>
                         </a>
                         {/* Google +*/}
                         <a className="gplus-ic">
-                            <i className="fa fa-google-plus white-text mr-4 col-white"> </i>
+                            <i className="fa fa-google-plus white-text mr-4 col-white"><img src={require('./../../Images/whatsapp_icon-icons.com_65489.png')} width = "20px"/>  </i>
                         </a>
-                        {/*Linkedin */}
-                        <a className="li-ic">
-                            <i className="fa fa-linkedin white-text mr-4 col-white"> </i>
-                        </a>
-                        {/*Instagram*/}
-                        <a className="ins-ic">
-                            <i className="fa fa-instagram white-text col-white"> </i>
-                        </a>
+                       
 
                     </div>
                     {/* Grid column */}
@@ -83,7 +76,7 @@ const Footer = () => (
                     <h6 className="text-uppercase font-weight-bold">Сделано на</h6>
                     <hr className="teal accent-3 mb-4 mt-0 d-inline-block mx-auto"  />
                     <p>
-                        <a className="dark-grey-text" href="#!">Bootstrap</a>
+                        Bootstrap + React
                     </p>
                     <p>
 
