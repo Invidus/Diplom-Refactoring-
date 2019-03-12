@@ -7,10 +7,9 @@ import ContentH from './ContentH/ContentH';
 const Main = () => {
     return (
         <div>
-        <CarouselH/>
-        <ContentH/>
-        <Content/>
-        
+            <CarouselH />
+            <ContentH />
+            <Content />
         </div>
     )
 }

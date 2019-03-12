@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom';
 
 const Carousel = () => {
     return (
+        
+
+
+
+
         <div className="container">
             <div id="carouselExampleControls" className="carousel slide" data-ride="carousel" data-interval="100000">
                 <div className="w-100 carousel-inner" role="listbox">
@@ -10,7 +15,7 @@ const Carousel = () => {
                         <div className="carousel-caption">
                             <div className="row">
                                 <div className="col-sm-3">
-                                    <img src={require('./../../Images/c02f2badaa8e9f8c2ee6c97d1ac989b4_200.jpg')} alt="" className="rounded-circle img-fluid hide" />
+                                    <img src={require('./../../../Images/c02f2badaa8e9f8c2ee6c97d1ac989b4_200.jpg')} alt="" className="rounded-circle img-fluid hide" />
                                 </div>
                                 <div className="col-sm-9">
                                     <h4>Алексей Иванов</h4>
@@ -24,7 +29,7 @@ const Carousel = () => {
                         <div className="carousel-caption">
                             <div className="row">
                                 <div className="col-sm-3">
-                                    <img src={require('./../../Images/200x200_4WtjLiCFbhc7SPxJ4K2iG5z3YHo8c46A___jpg____0_6c52dbde.jpg')} alt="" className="rounded-circle img-fluid hide" />
+                                    <img src={require('./../../../Images/200x200_4WtjLiCFbhc7SPxJ4K2iG5z3YHo8c46A___jpg____0_6c52dbde.jpg')} alt="" className="rounded-circle img-fluid hide" />
                                 </div>
                                 <div className="col-sm-9">
                                     <h4>Анастасия Навратилова</h4>
@@ -38,7 +43,7 @@ const Carousel = () => {
                         <div className="carousel-caption">
                             <div className="row">
                                 <div className="col-sm-3">
-                                    <img src={require('./../../Images/main-thumb-297095976-200-abacptppoxraxdehzkqmybwtprjxuxyi.jpeg')} alt="" className="rounded-circle img-fluid hide" />
+                                    <img src={require('./../../../Images/main-thumb-297095976-200-abacptppoxraxdehzkqmybwtprjxuxyi.jpeg')} alt="" className="rounded-circle img-fluid hide" />
                                 </div>
                                 <div className="col-sm-9">
                                     <h4>Виталий Кузнецов</h4>
